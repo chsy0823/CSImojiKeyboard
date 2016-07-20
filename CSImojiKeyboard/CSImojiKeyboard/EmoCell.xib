@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="emo_cell" id="AUP-7w-dDb" customClass="EmoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emoji_01_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-HV-jZt">
+                        <rect key="frame" x="8" y="8" width="36" height="36"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Uy1-HV-jZt" secondAttribute="trailing" constant="8" id="KsE-O5-ZJF"/>
+                <constraint firstItem="Uy1-HV-jZt" firstAttribute="top" secondItem="AUP-7w-dDb" secondAttribute="top" constant="8" id="KvC-aV-y5k"/>
+                <constraint firstItem="Uy1-HV-jZt" firstAttribute="leading" secondItem="AUP-7w-dDb" secondAttribute="leading" constant="8" id="aB6-R7-qqw"/>
+                <constraint firstAttribute="bottom" secondItem="Uy1-HV-jZt" secondAttribute="bottom" constant="8" id="nxZ-rb-SYK"/>
+            </constraints>
+            <size key="customSize" width="46" height="49"/>
+            <connections>
+                <outlet property="imageView" destination="Uy1-HV-jZt" id="hio-Oo-5aJ"/>
+            </connections>
+            <point key="canvasLocation" x="215" y="314"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="emoji_01_01.png" width="60" height="69"/>
+    </resources>
+</document>
