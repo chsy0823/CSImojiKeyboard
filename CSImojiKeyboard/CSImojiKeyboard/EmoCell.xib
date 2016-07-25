@@ -34,6 +34,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="emoji_01_01.png" width="60" height="69"/>
+        <image name="emoji_01_01.png" width="120" height="138"/>
     </resources>
 </document>
