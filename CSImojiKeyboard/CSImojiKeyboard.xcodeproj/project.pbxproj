@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA45A8AC1D45B1830010FDEA /* EmoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA45A8A61D45B1830010FDEA /* EmoView.xib */; };
+		DA45A8AD1D45B1830010FDEA /* EmoPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA45A8A71D45B1830010FDEA /* EmoPageView.m */; };
+		DA45A8AE1D45B1830010FDEA /* EmoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA45A8A91D45B1830010FDEA /* EmoCollectionViewCell.m */; };
+		DA45A8AF1D45B1830010FDEA /* EmoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA45A8AB1D45B1830010FDEA /* EmoCell.xib */; };
 		DAF680DB1D3F4D9800767779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF680DA1D3F4D9800767779 /* main.m */; };
 		DAF680DE1D3F4D9800767779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF680DD1D3F4D9800767779 /* AppDelegate.m */; };
 		DAF680E11D3F4D9800767779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF680E01D3F4D9800767779 /* ViewController.m */; };
@@ -15,8 +19,6 @@
 		DAF680E91D3F4D9800767779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF680E71D3F4D9800767779 /* LaunchScreen.storyboard */; };
 		DAF680F41D3F4D9800767779 /* CSImojiKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF680F31D3F4D9800767779 /* CSImojiKeyboardTests.m */; };
 		DAF680FF1D3F4D9800767779 /* CSImojiKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF680FE1D3F4D9800767779 /* CSImojiKeyboardUITests.m */; };
-		DAFBFCEA1D3F55720031458B /* EmoPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFBFCE91D3F55720031458B /* EmoPageView.m */; };
-		DAFBFCEC1D3F55820031458B /* EmoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFCEB1D3F55820031458B /* EmoView.xib */; };
 		DAFBFD541D3F5E550031458B /* emoji_01_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFCEE1D3F5E550031458B /* emoji_01_01@2x.png */; };
 		DAFBFD551D3F5E550031458B /* emoji_01_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFCEF1D3F5E550031458B /* emoji_01_02@2x.png */; };
 		DAFBFD561D3F5E550031458B /* emoji_01_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFCF01D3F5E550031458B /* emoji_01_03@2x.png */; };
@@ -119,8 +121,6 @@
 		DAFBFDB71D3F5E550031458B /* emoji_08_20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFD511D3F5E550031458B /* emoji_08_20@2x.png */; };
 		DAFBFDB81D3F5E550031458B /* emoji_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFD521D3F5E550031458B /* emoji_off@2x.png */; };
 		DAFBFDB91D3F5E550031458B /* emoji_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFD531D3F5E550031458B /* emoji_on@2x.png */; };
-		DAFBFDBC1D3F727A0031458B /* EmoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFBFDBB1D3F727A0031458B /* EmoCollectionViewCell.m */; };
-		DAFBFDBE1D3F72BD0031458B /* EmoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFBFDBD1D3F72BD0031458B /* EmoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +141,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA45A8A61D45B1830010FDEA /* EmoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoView.xib; sourceTree = "<group>"; };
+		DA45A8A71D45B1830010FDEA /* EmoPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoPageView.m; sourceTree = "<group>"; };
+		DA45A8A81D45B1830010FDEA /* EmoPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoPageView.h; sourceTree = "<group>"; };
+		DA45A8A91D45B1830010FDEA /* EmoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoCollectionViewCell.m; sourceTree = "<group>"; };
+		DA45A8AA1D45B1830010FDEA /* EmoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoCollectionViewCell.h; sourceTree = "<group>"; };
+		DA45A8AB1D45B1830010FDEA /* EmoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoCell.xib; sourceTree = "<group>"; };
 		DAF680D61D3F4D9800767779 /* CSImojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSImojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF680DA1D3F4D9800767779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAF680DC1D3F4D9800767779 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CSImojiKeyboard/AppDelegate.h; sourceTree = "<group>"; };
@@ -157,9 +163,6 @@
 		DAF680FA1D3F4D9800767779 /* CSImojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSImojiKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF680FE1D3F4D9800767779 /* CSImojiKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSImojiKeyboardUITests.m; sourceTree = "<group>"; };
 		DAF681001D3F4D9800767779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFBFCE81D3F55720031458B /* EmoPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoPageView.h; sourceTree = "<group>"; };
-		DAFBFCE91D3F55720031458B /* EmoPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoPageView.m; sourceTree = "<group>"; };
-		DAFBFCEB1D3F55820031458B /* EmoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoView.xib; sourceTree = "<group>"; };
 		DAFBFCEE1D3F5E550031458B /* emoji_01_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_01_01@2x.png"; sourceTree = "<group>"; };
 		DAFBFCEF1D3F5E550031458B /* emoji_01_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_01_02@2x.png"; sourceTree = "<group>"; };
 		DAFBFCF01D3F5E550031458B /* emoji_01_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_01_03@2x.png"; sourceTree = "<group>"; };
@@ -262,9 +265,6 @@
 		DAFBFD511D3F5E550031458B /* emoji_08_20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_08_20@2x.png"; sourceTree = "<group>"; };
 		DAFBFD521D3F5E550031458B /* emoji_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_off@2x.png"; sourceTree = "<group>"; };
 		DAFBFD531D3F5E550031458B /* emoji_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_on@2x.png"; sourceTree = "<group>"; };
-		DAFBFDBA1D3F727A0031458B /* EmoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoCollectionViewCell.h; sourceTree = "<group>"; };
-		DAFBFDBB1D3F727A0031458B /* EmoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoCollectionViewCell.m; sourceTree = "<group>"; };
-		DAFBFDBD1D3F72BD0031458B /* EmoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,12 +316,12 @@
 		DAF680D81D3F4D9800767779 /* CSImojiKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				DAFBFCE81D3F55720031458B /* EmoPageView.h */,
-				DAFBFCE91D3F55720031458B /* EmoPageView.m */,
-				DAFBFDBA1D3F727A0031458B /* EmoCollectionViewCell.h */,
-				DAFBFDBB1D3F727A0031458B /* EmoCollectionViewCell.m */,
-				DAFBFCEB1D3F55820031458B /* EmoView.xib */,
-				DAFBFDBD1D3F72BD0031458B /* EmoCell.xib */,
+				DA45A8A61D45B1830010FDEA /* EmoView.xib */,
+				DA45A8A71D45B1830010FDEA /* EmoPageView.m */,
+				DA45A8A81D45B1830010FDEA /* EmoPageView.h */,
+				DA45A8A91D45B1830010FDEA /* EmoCollectionViewCell.m */,
+				DA45A8AA1D45B1830010FDEA /* EmoCollectionViewCell.h */,
+				DA45A8AB1D45B1830010FDEA /* EmoCell.xib */,
 			);
 			path = CSImojiKeyboard;
 			sourceTree = "<group>";
@@ -606,7 +606,6 @@
 				DAFBFDB41D3F5E550031458B /* emoji_08_17@2x.png in Resources */,
 				DAFBFD7E1D3F5E550031458B /* emoji_04_11@2x.png in Resources */,
 				DAFBFD961D3F5E550031458B /* emoji_06_11@2x.png in Resources */,
-				DAFBFCEC1D3F55820031458B /* EmoView.xib in Resources */,
 				DAFBFD681D3F5E550031458B /* emoji_03_01@2x.png in Resources */,
 				DAFBFD5E1D3F5E550031458B /* emoji_01_11@2x.png in Resources */,
 				DAFBFD8D1D3F5E550031458B /* emoji_06_02@2x.png in Resources */,
@@ -647,6 +646,7 @@
 				DAFBFDA71D3F5E550031458B /* emoji_08_04@2x.png in Resources */,
 				DAFBFD561D3F5E550031458B /* emoji_01_03@2x.png in Resources */,
 				DAFBFDAB1D3F5E550031458B /* emoji_08_08@2x.png in Resources */,
+				DA45A8AC1D45B1830010FDEA /* EmoView.xib in Resources */,
 				DAFBFD591D3F5E550031458B /* emoji_01_06@2x.png in Resources */,
 				DAFBFD881D3F5E550031458B /* emoji_05_09@2x.png in Resources */,
 				DAFBFD631D3F5E550031458B /* emoji_02_04@2x.png in Resources */,
@@ -678,7 +678,7 @@
 				DAFBFDB51D3F5E550031458B /* emoji_08_18@2x.png in Resources */,
 				DAFBFDA11D3F5E550031458B /* emoji_07_10@2x.png in Resources */,
 				DAFBFD7D1D3F5E550031458B /* emoji_04_10@2x.png in Resources */,
-				DAFBFDBE1D3F72BD0031458B /* EmoCell.xib in Resources */,
+				DA45A8AF1D45B1830010FDEA /* EmoCell.xib in Resources */,
 				DAFBFD6D1D3F5E550031458B /* emoji_03_06@2x.png in Resources */,
 				DAFBFDB01D3F5E550031458B /* emoji_08_13@2x.png in Resources */,
 				DAFBFD931D3F5E550031458B /* emoji_06_08@2x.png in Resources */,
@@ -713,11 +713,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFBFDBC1D3F727A0031458B /* EmoCollectionViewCell.m in Sources */,
+				DA45A8AE1D45B1830010FDEA /* EmoCollectionViewCell.m in Sources */,
 				DAF680E11D3F4D9800767779 /* ViewController.m in Sources */,
+				DA45A8AD1D45B1830010FDEA /* EmoPageView.m in Sources */,
 				DAF680DE1D3F4D9800767779 /* AppDelegate.m in Sources */,
 				DAF680DB1D3F4D9800767779 /* main.m in Sources */,
-				DAFBFCEA1D3F55720031458B /* EmoPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
